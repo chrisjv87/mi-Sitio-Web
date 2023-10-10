@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+header {
+    background-color: #06533e;
+    color: #fff;
+    height: 20%;
+    text-align: center;
+    padding: 20px;
+}
+header h1 {
+    padding: 10px;
+}
+/* Estilos para la barra de navegación en el encabezado */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Estilos para el contenido principal */
+main {
+    display: flex;
+    height: 70%;
+}
+
+/* Estilos para las secciones dentro del contenido principal */
+section {
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 100%;
+    background-color: rgb(79, 168, 141);
+}
+section img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 80%;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    height: 10%;
+    text-align: center;
+    padding: 20px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    margin-right: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #fff;
+}
