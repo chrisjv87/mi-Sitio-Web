@@ -63,8 +63,8 @@ section img {
     display: block;
     margin: 0 auto;
     border-radius: 50px;
-    width: 100%;
-    max-width:45%;
+    width: 50%;
+    max-width:100%;
 }
 
 /* Estilos para el pie de página */
