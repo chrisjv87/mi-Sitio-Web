@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+body {
+    display: grid;
+    grid-template-columns: 10% 1fr;
+    grid-template-rows: auto;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+.section-content {
+    display: flex;
+    justify-content: center;
+}
+
+.content-about {
+    margin: 40px;
+    padding: 20px;
+    width: 100%
+}
+
+.content-about p {
+    font-size: 3em;
+    text-align: justify;
+}
