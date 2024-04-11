@@ -7,55 +7,108 @@ html {
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
 }
+
 body {
     display: grid;
-    grid-template-columns: 10% 1fr;
-    grid-template-rows: auto;
+    grid-template-rows: 1fr;
+    grid-template-columns: 250px 1fr;
     min-height: 100vh;
-    overflow-x: hidden;
+    overflow: hidden;
 }
-.navigation-menu {
-    display: flex;
-    align-items: flex-end;
+
+.header-menu {
+    display: grid;
+    grid-template-rows: 200px auto 250px;
+    grid-template-columns: 1fr;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
     background-color: rgb(31, 119, 93);
     color: #fff;
-    text-align: center;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    justify-items: center;
 }
 
 .menu-general {
-    display: flex;
-    flex-direction: column;
-    height: 80%;
-    width: 100%;
-    background-color: #06533e;
+    display: grid;
+    grid-template-rows: repeat(4, 100px);
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
     color: black;
-    align-items: center;
+    padding: 10px;
+    justify-items: center;
 }
-.menu-general a {
+.menu-general span {
     display: flex;
+    width: 150px;
     justify-content: center;
     align-items: center;
-    padding: 10px;
-    text-decoration: none;
-    height: 110px;
-    width: 100%;
+    margin: 10px;
+    background-color: rgb(11, 99, 66);
     border: 1px solid black;
-    font-weight: bold;
-    color: black;
-    font-size: 2.4em;
+    border-radius: 10px;
+    transition: transform .5s ease-in-out;
 }
-.section-content {
+.menu-general a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2.4em;
+    color: black;
+    transition: transform .5s ease-in-out;
+}
+.menu-general span:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px 5px rgba(31, 119, 93, 0.743);
+}
+
+.social-media {
     display: grid;
-    grid-template-columns: 3fr 2fr;
-    align-items: center;
-    justify-items: start;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    gap: 20px;
+    width: 150px;
+    margin: 10px;
+}
+.social-media a {
+    justify-self: center;
+    align-self: center;
+    width: 35px;
+    height: 35px;
+}
+.social-media img {
+    border-radius: 50%;
+    transition: transform .5s ease-in-out;
+}
+.social-media img:hover {
+    transform: scale(1.5);
+    box-shadow: 0px 0px 5px 5px rgba(255, 255, 255, 0.743);
+}
+
+
+.main-content {
+    display: grid;
+    grid-template-rows: 1fr 10%;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    margin: 10px;
+    padding: 10px;
 }
 
 .content-profile {
-    width: 80%;
-    margin: 20px 50px;
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
-
 .content-profile p {
     font-size: 6em;
     font-weight: bold;
@@ -63,25 +116,58 @@ body {
 .content-profile h1 {
     margin: 20px 0;
 }
-.content-profile button {
-    background-color: rgb(11, 99, 66);
-    padding: 20px;
+
+.profile-cv {
+    text-decoration: none;
     color: white;
     font-size: 2em;
+    font-weight: bold;
+    background-color: rgb(11, 99, 66);
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    transition: transform .5s ease-in-out;
+}
+.profile-cv:hover {
+    transform: scale(1.2);
+    box-shadow: 0px 0px 5px 5px rgba(31, 119, 93, 0.743);
 }
 
-.content-main {
-    width: 500px;
+.content-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 20px;
     padding: 10px;
-    background-color: rgb(79, 168, 141);
     border-radius: 50px;
-
 }
-.content-main img {
+.content-image img {
     display: block;
-    width: 100%;
     border-radius: 50px;
     height: 500px;
     object-fit: cover;
+    box-shadow: -1px 1px 22px 14px rgba(11,99,66,1);
+    -webkit-box-shadow: -1px 1px 22px 14px rgba(11,99,66,1);
+    -moz-box-shadow: -1px 1px 22px 14px rgba(11,99,66,1);
+    transition: transform .5s ease-in-out;
+}
+.content-image img:hover {
+    transform: scale(1.4);
+}
+
+.button-next {
+    display: grid;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
+    justify-items: center;
+    align-items: center;
+}
+
+.icon-arrow-down {
+    width: 60px;
+    height: 60px;
+    transition: transform .5s ease-in-out;
+}
+.icon-arrow-down:hover {
+    transform: scale(1.8);
 }
