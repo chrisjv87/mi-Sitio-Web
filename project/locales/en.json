@@ -1,0 +1,18 @@
+{
+    "index": {
+        "text": "Web Developer",
+        "about": "About",
+        "skills": "Skills",
+        "work": "Work",
+        "training": "Training",    
+        "welcome": "¡Welcome!",
+        "description": "I´m Christopher, JavaScript Developer",
+        "download_cv": "Download CV"
+    },
+    "pages": {    
+        "about-content": "I'm a web developer with 2 years of experience in the Front End, specialized in JavaScript, I also use frameworks and libraries. I have experience building web pages from scratch with pure CSS and with preprocessors like SASS and LESS, I use their frameworks like Boostrap and Tailwind. I can create prototypes with design tools like Figma. My basic training started at the Platzi Web Development school and to this day I keep myself updated and learning new technological tools, I apply the motto 'NEVER STOP LEARNING' to have more specific knowledge in a self-taught way. Programming taught me that every day we encounter problems, making a good analysis, creating suitable strategies, generate high-quality results.",
+        "skills-content": "I have developed my skills with the following technologies.",
+        "work-content": "Learn about some of the projects I have built from scratch",
+        "training-content": "Diplomas from courses in which I have updated my skills"
+    }
+}  

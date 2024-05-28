@@ -1,0 +1,18 @@
+{
+    "index": {
+        "text": "Desarrollador Web",
+        "about": "Acerca",
+        "skills": "Habilidades",
+        "work": "Trabajo",
+        "training": "Capacitacion",    
+        "welcome": "Bienvenido!",
+        "description": "Soy Christopher, Desarrollador JavaScript",
+        "download_cv": "Descargar CV"
+    },
+    "pages": {
+        "about-content": "Soy desarrollador web con 2 años de experiencia en el Front End, especializado en JavaScript, también uso frameworks y librerías. Tengo experiencia contruyendo paginas web desde cero con CSS puro y con pre-procesadores como SASS y LESS, utlizo sus frameworks como Boostrap y Tailwind. Puedo crear prototipos con herramientas de diseño como Figma. Mi formación base inició en la escuela de Desarrollo Web de Platzi y al día de hoy me mantengo actualizado y aprendiendo nuevas herramientas tecnológicas, aplico el lema 'NUNCA PARAR DE APRENDER' para tener conocimientos mas específicos de manera autodidacta. La programación me enseñó que todos los días nos encontramos con problemas, realizar un buen análisis, crear estrategias adecuadas, generan resultados de alta calidad.",
+        "skills-content": "He desarrollado mis habilidades con las siguientes tecnologías.",
+        "work-content": "Conoce algunos de los proyectos que he construido desde cero",
+        "training-content": "Diplomas de cursos en los que he actualizado mis habilidades"
+    }
+}  
