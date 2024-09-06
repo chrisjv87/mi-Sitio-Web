@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/chrisjv87/mi-Sitio-Web/issues"
   },
-  "homepage": "https://github.com/chrisjv87/mi-Sitio-Web#readme"
+  "homepage": "https://github.com/chrisjv87/mi-Sitio-Web#readme",
+  "dependencies": {
+    "sass": "^1.78.0"
+  }
 }
