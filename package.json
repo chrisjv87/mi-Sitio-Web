@@ -4,7 +4,10 @@
   "description": "My web site personal",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
+    "watch:css": "sass --watch project/src/scss/main.scss project/public/css/main.css",
+    "build:css": "sass project/src/scss/main.scss project/public/css/main.css"
   },
   "repository": {
     "type": "git",
@@ -17,6 +20,10 @@
   },
   "homepage": "https://github.com/chrisjv87/mi-Sitio-Web#readme",
   "dependencies": {
+    "express": "^4.19.2",
     "sass": "^1.78.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
   }
 }
